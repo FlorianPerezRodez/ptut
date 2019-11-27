@@ -1,0 +1,17 @@
+.red{
+	color: red;
+}
+td {
+	border-width: 3px;
+	text-align: center;
+	font-size: 20px;
+	border-style: double ;
+	min-width: 30px;
+	min-height: 30px;
+}
+
+.fond{
+	background: grey;
+	font-size: 25px;
+	font-weight: bold;
+}
