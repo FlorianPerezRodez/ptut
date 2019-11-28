@@ -83,7 +83,6 @@
 	<!-- header -->
 
 	<?php /*  Call To Action - Intro */ consulting_thinkup_input_ctaintro(); ?>
-	<?php /*  Pre-Designed HomePage Content */ consulting_thinkup_input_homepagesection(); ?>
 
 	<div id="content">
 	<div id="content-core">
