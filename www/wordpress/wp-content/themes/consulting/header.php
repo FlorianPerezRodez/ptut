@@ -53,6 +53,7 @@
 
 			<div id="header-links" class="main-navigation">
 			<div id="header-links-inner" class="header-links">
+				<button type="submit" class="btn btn-primary btn-sm"><span class="fa fa-user"></span><br/> Connexion</button>
 
 				<?php $walker = new consulting_thinkup_menudescription;
 				wp_nav_menu(array( 'container' => false, 'theme_location'  => 'header_menu', 'walker' => new consulting_thinkup_menudescription() ) ); ?>
@@ -64,6 +65,7 @@
 			<!-- #header-links .main-navigation -->
  	
 			<?php /* Add responsive header menu */ consulting_thinkup_input_responsivehtml1(); ?>
+
 
 		</div>
 		</div>
