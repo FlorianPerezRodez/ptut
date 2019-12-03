@@ -186,9 +186,9 @@ $slider_default          = NULL;
 	if ( is_front_page() ) {
 
 		// Set default slider
-		$slider_default .= '<li><img src="' . esc_url( get_template_directory_uri() ) . '/images/transparent.png" style="background: url(' . esc_url( get_template_directory_uri() ) . '/images/slideshow/slide_demo1.png) no-repeat center; background-size: cover;" alt="' . esc_attr__( 'Demo Image', 'consulting' ) . '" /></li>';
+		$slider_default .= '<li><img src="' . esc_url( get_template_directory_uri() ) . '/images/transparent.png" style="background: url(' . esc_url( get_template_directory_uri() ) . '/images/slideshow/1_Batiment-C.jpg) no-repeat center; background-size: cover;" alt="' . esc_attr__( 'Demo Image', 'consulting' ) . '" /></li>';
 		$slider_default .= '<li><img src="' . esc_url( get_template_directory_uri() ) . '/images/transparent.png" style="background: url(' . esc_url( get_template_directory_uri() ) . '/images/slideshow/madrid-light.jpeg) no-repeat center; background-size: cover;" alt="' . esc_attr__( 'Demo Image', 'consulting' ) . '" /></li>';
-		$slider_default .= '<li><img src="' . esc_url( get_template_directory_uri() ) . '/images/transparent.png" style="background: url(' . esc_url( get_template_directory_uri() ) . '/images/slideshow/slide_demo3.png) no-repeat center; background-size: cover;" alt="' . esc_attr__( 'Demo Image', 'consulting' ) . '" /></li>';
+		$slider_default .= '<li><img src="' . esc_url( get_template_directory_uri() ) . '/images/transparent.png" style="background: url(' . esc_url( get_template_directory_uri() ) . '/images/slideshow/DgEwrGUWkAEVfe.jpg) no-repeat center; background-size: cover;" alt="' . esc_attr__( 'Demo Image', 'consulting' ) . '" /></li>';
 
 		if ( ( current_user_can( 'edit_theme_options' ) and empty( $thinkup_homepage_sliderswitch ) ) or $thinkup_homepage_sliderswitch == 'option1' ) {
 

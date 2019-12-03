@@ -10445,3 +10445,19 @@
 [Mon Dec 02 16:21:44.945394 2019] [:error] [pid 15088:tid 1348] [client ::1:62831] PHP   6. um\\admin\\core\\Admin_Notices->create_list() C:\\Users\\Drakhis\\Desktop\\Cours\\PTUT\\ptut\\www\\wordpress\\wp-includes\\class-wp-hook.php:286, referer: http://localhost/wordpress/wp-admin/nav-menus.php?action=locations
 [Mon Dec 02 16:21:44.945394 2019] [:error] [pid 15088:tid 1348] [client ::1:62831] PHP   7. um\\admin\\core\\Admin_Notices->admin_notice_opt_in() C:\\Users\\Drakhis\\Desktop\\Cours\\PTUT\\ptut\\www\\wordpress\\wp-content\\plugins\\ultimate-member\\includes\\admin\\core\\class-admin-notices.php:47, referer: http://localhost/wordpress/wp-admin/nav-menus.php?action=locations
 [Mon Dec 02 16:21:44.945394 2019] [:error] [pid 15088:tid 1348] [client ::1:62831] PHP   8. printf() C:\\Users\\Drakhis\\Desktop\\Cours\\PTUT\\ptut\\www\\wordpress\\wp-content\\plugins\\ultimate-member\\includes\\admin\\core\\class-admin-notices.php:498, referer: http://localhost/wordpress/wp-admin/nav-menus.php?action=locations
+[Tue Dec 03 16:54:56.256257 2019] [ssl:warn] [pid 9280:tid 628] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 03 16:54:56.257254 2019] [ssl:warn] [pid 9280:tid 628] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 03 16:54:56.280193 2019] [core:warn] [pid 9280:tid 628] AH00098: pid file D:/ptut/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 03 16:54:56.365966 2019] [ssl:warn] [pid 9280:tid 628] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Dec 03 16:54:56.365966 2019] [ssl:warn] [pid 9280:tid 628] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 03 16:54:56.365966 2019] [ssl:warn] [pid 9280:tid 628] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 03 16:54:56.439771 2019] [mpm_winnt:notice] [pid 9280:tid 628] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Tue Dec 03 16:54:56.439771 2019] [mpm_winnt:notice] [pid 9280:tid 628] AH00456: Server built: Jan 28 2016 09:58:25
+[Tue Dec 03 16:54:56.439771 2019] [core:notice] [pid 9280:tid 628] AH00094: Command line: 'D:\\ptut\\bin\\apache\\bin\\httpd.exe -d D:/ptut/bin/apache -f D:\\ptut\\bin\\apache\\conf\\httpd.conf'
+[Tue Dec 03 16:54:56.449744 2019] [mpm_winnt:notice] [pid 9280:tid 628] AH00418: Parent: Created child process 12084
+[Tue Dec 03 16:54:57.035194 2019] [ssl:warn] [pid 12084:tid 632] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 03 16:54:57.036198 2019] [ssl:warn] [pid 12084:tid 632] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 03 16:54:57.135928 2019] [ssl:warn] [pid 12084:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Dec 03 16:54:57.135928 2019] [ssl:warn] [pid 12084:tid 632] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 03 16:54:57.135928 2019] [ssl:warn] [pid 12084:tid 632] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 03 16:54:57.159031 2019] [mpm_winnt:notice] [pid 12084:tid 632] AH00354: Child: Starting 64 worker threads.
