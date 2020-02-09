@@ -272,7 +272,9 @@
 	}
 
 	/* Footer */
-
+	#menutab{
+		display: none !important;
+	}
 	/* Sidebar */
 
 	/* Blog */
@@ -328,10 +330,14 @@
 	#pre-header-links-inner,
 	#intro #breadcrumbs,
 	#sidebar,
-	#footer-menu,
 	.meta-author {
 		display: none !important;
 	}
+	
+	#menutab{
+		display: none !important;
+	}
+	
 	#main-core,
 	#intro.option1, 
 	#intro.option2 {

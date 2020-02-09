@@ -1,0 +1,393 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 03:13:49
+* VERSION: 1.3.24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.9                                 |7.0.3
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-02-09 15:04:29
+WP VERSION__________: 5.2.5
+DUP VERSION_________: 1.3.24
+DB__________________: 10.3.17
+DB TABLES___________: 13
+DB ROWS_____________: 883
+DB FILE SIZE________: 2.11MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.0.3 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3
+DOC ROOT____________: "C:/UwAmp/www/wordpress"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/wordpress/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20191204_unisocium_5f9588104cca89fe3816_20200209150429_archive.zip"
+SIZE________________: 1.4MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 116
+    [filename] => C:\UwAmp\www\wordpress\20191204_unisocium_5f9588104cca89fe3816_20200209150429_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2020-02-09 15:13:50
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 03:13:50 - RUNTIME: 1.4054 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 03:43:22
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.17 -- Build Server: 10.3.17
+FILE SIZE:	dup-database__5f95881-09150429.sql (602.08KB)
+TIMEOUT:	5000
+MAXPACK:	536870912
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/UwAmp/www/wordpress/dup-installer/dup-installer-data__5f95881-09150429.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	13
+RENAMED TABLES:	0
+QUERIES RAN:	126
+
+wp_commentmeta: (0)
+wp_comments: (5)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (165)
+wp_postmeta: (259)
+wp_posts: (83)
+wp_term_relationships: (17)
+wp_term_taxonomy: (4)
+wp_termmeta: (0)
+wp_terms: (4)
+wp_usermeta: (192)
+wp_users: (7)
+Removed '30' cache/transient rows
+
+INSERT DATA RUNTIME: 18.0980 sec.
+STEP-2 COMPLETE @ 03:43:42 - RUNTIME: 20.0882 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:45:03
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Unisocium"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/compteflorian/www/"
+path_new______________: "C:/UwAmp/www/wordpress/"
+siteurl_______________: "http://localhost/wordpress"
+url_old_______________: "http://compteflorian.alwaysdata.net"
+url_new_______________: "http://localhost/wordpress"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "mysql-compteflorian.alwaysdata.net"
+dbuser________________: "195343_admin"
+dbname________________: "compteflorian_uniscocium"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/compteflorian/www/" ========================> "C:/UwAmp/www/wordpress/"
+	SEARCH  2:"\/home\/compteflorian\/www\/" ====================> "C:\/UwAmp\/www\/wordpress\/"
+	SEARCH  3:"%2Fhome%2Fcompteflorian%2Fwww%2F" ================> "C%3A%2FUwAmp%2Fwww%2Fwordpress%2F"
+	SEARCH  4:"\home\compteflorian\www" =========================> "C:/UwAmp/www/wordpress"
+	SEARCH  5:"\\home\\compteflorian\\www" ======================> "C:\/UwAmp\/www\/wordpress"
+	SEARCH  6:"%5Chome%5Ccompteflorian%5Cwww" ===================> "C%3A%2FUwAmp%2Fwww%2Fwordpress"
+	SEARCH  7:"//compteflorian.alwaysdata.net" ==================> "//localhost/wordpress"
+	SEARCH  8:"\/\/compteflorian.alwaysdata.net" ================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Fcompteflorian.alwaysdata.net" ==============> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   165][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/compteflorian/www/" ========================> "C:/UwAmp/www/wordpress/"
+	SEARCH  2:"\/home\/compteflorian\/www\/" ====================> "C:\/UwAmp\/www\/wordpress\/"
+	SEARCH  3:"%2Fhome%2Fcompteflorian%2Fwww%2F" ================> "C%3A%2FUwAmp%2Fwww%2Fwordpress%2F"
+	SEARCH  4:"\home\compteflorian\www" =========================> "C:/UwAmp/www/wordpress"
+	SEARCH  5:"\\home\\compteflorian\\www" ======================> "C:\/UwAmp\/www\/wordpress"
+	SEARCH  6:"%5Chome%5Ccompteflorian%5Cwww" ===================> "C%3A%2FUwAmp%2Fwww%2Fwordpress"
+	SEARCH  7:"//compteflorian.alwaysdata.net" ==================> "//localhost/wordpress"
+	SEARCH  8:"\/\/compteflorian.alwaysdata.net" ================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Fcompteflorian.alwaysdata.net" ==============> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   259][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/compteflorian/www/" ========================> "C:/UwAmp/www/wordpress/"
+	SEARCH  2:"\/home\/compteflorian\/www\/" ====================> "C:\/UwAmp\/www\/wordpress\/"
+	SEARCH  3:"%2Fhome%2Fcompteflorian%2Fwww%2F" ================> "C%3A%2FUwAmp%2Fwww%2Fwordpress%2F"
+	SEARCH  4:"\home\compteflorian\www" =========================> "C:/UwAmp/www/wordpress"
+	SEARCH  5:"\\home\\compteflorian\\www" ======================> "C:\/UwAmp\/www\/wordpress"
+	SEARCH  6:"%5Chome%5Ccompteflorian%5Cwww" ===================> "C%3A%2FUwAmp%2Fwww%2Fwordpress"
+	SEARCH  7:"//compteflorian.alwaysdata.net" ==================> "//localhost/wordpress"
+	SEARCH  8:"\/\/compteflorian.alwaysdata.net" ================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Fcompteflorian.alwaysdata.net" ==============> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    83][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/compteflorian/www/" ========================> "C:/UwAmp/www/wordpress/"
+	SEARCH  2:"\/home\/compteflorian\/www\/" ====================> "C:\/UwAmp\/www\/wordpress\/"
+	SEARCH  3:"%2Fhome%2Fcompteflorian%2Fwww%2F" ================> "C%3A%2FUwAmp%2Fwww%2Fwordpress%2F"
+	SEARCH  4:"\home\compteflorian\www" =========================> "C:/UwAmp/www/wordpress"
+	SEARCH  5:"\\home\\compteflorian\\www" ======================> "C:\/UwAmp\/www\/wordpress"
+	SEARCH  6:"%5Chome%5Ccompteflorian%5Cwww" ===================> "C%3A%2FUwAmp%2Fwww%2Fwordpress"
+	SEARCH  7:"//compteflorian.alwaysdata.net" ==================> "//localhost/wordpress"
+	SEARCH  8:"\/\/compteflorian.alwaysdata.net" ================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Fcompteflorian.alwaysdata.net" ==============> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/compteflorian/www/" ========================> "C:/UwAmp/www/wordpress/"
+	SEARCH  2:"\/home\/compteflorian\/www\/" ====================> "C:\/UwAmp\/www\/wordpress\/"
+	SEARCH  3:"%2Fhome%2Fcompteflorian%2Fwww%2F" ================> "C%3A%2FUwAmp%2Fwww%2Fwordpress%2F"
+	SEARCH  4:"\home\compteflorian\www" =========================> "C:/UwAmp/www/wordpress"
+	SEARCH  5:"\\home\\compteflorian\\www" ======================> "C:\/UwAmp\/www\/wordpress"
+	SEARCH  6:"%5Chome%5Ccompteflorian%5Cwww" ===================> "C%3A%2FUwAmp%2Fwww%2Fwordpress"
+	SEARCH  7:"//compteflorian.alwaysdata.net" ==================> "//localhost/wordpress"
+	SEARCH  8:"\/\/compteflorian.alwaysdata.net" ================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Fcompteflorian.alwaysdata.net" ==============> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/compteflorian/www/" ========================> "C:/UwAmp/www/wordpress/"
+	SEARCH  2:"\/home\/compteflorian\/www\/" ====================> "C:\/UwAmp\/www\/wordpress\/"
+	SEARCH  3:"%2Fhome%2Fcompteflorian%2Fwww%2F" ================> "C%3A%2FUwAmp%2Fwww%2Fwordpress%2F"
+	SEARCH  4:"\home\compteflorian\www" =========================> "C:/UwAmp/www/wordpress"
+	SEARCH  5:"\\home\\compteflorian\\www" ======================> "C:\/UwAmp\/www\/wordpress"
+	SEARCH  6:"%5Chome%5Ccompteflorian%5Cwww" ===================> "C%3A%2FUwAmp%2Fwww%2Fwordpress"
+	SEARCH  7:"//compteflorian.alwaysdata.net" ==================> "//localhost/wordpress"
+	SEARCH  8:"\/\/compteflorian.alwaysdata.net" ================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Fcompteflorian.alwaysdata.net" ==============> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/compteflorian/www/" ========================> "C:/UwAmp/www/wordpress/"
+	SEARCH  2:"\/home\/compteflorian\/www\/" ====================> "C:\/UwAmp\/www\/wordpress\/"
+	SEARCH  3:"%2Fhome%2Fcompteflorian%2Fwww%2F" ================> "C%3A%2FUwAmp%2Fwww%2Fwordpress%2F"
+	SEARCH  4:"\home\compteflorian\www" =========================> "C:/UwAmp/www/wordpress"
+	SEARCH  5:"\\home\\compteflorian\\www" ======================> "C:\/UwAmp\/www\/wordpress"
+	SEARCH  6:"%5Chome%5Ccompteflorian%5Cwww" ===================> "C%3A%2FUwAmp%2Fwww%2Fwordpress"
+	SEARCH  7:"//compteflorian.alwaysdata.net" ==================> "//localhost/wordpress"
+	SEARCH  8:"\/\/compteflorian.alwaysdata.net" ================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Fcompteflorian.alwaysdata.net" ==============> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   192][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/compteflorian/www/" ========================> "C:/UwAmp/www/wordpress/"
+	SEARCH  2:"\/home\/compteflorian\/www\/" ====================> "C:\/UwAmp\/www\/wordpress\/"
+	SEARCH  3:"%2Fhome%2Fcompteflorian%2Fwww%2F" ================> "C%3A%2FUwAmp%2Fwww%2Fwordpress%2F"
+	SEARCH  4:"\home\compteflorian\www" =========================> "C:/UwAmp/www/wordpress"
+	SEARCH  5:"\\home\\compteflorian\\www" ======================> "C:\/UwAmp\/www\/wordpress"
+	SEARCH  6:"%5Chome%5Ccompteflorian%5Cwww" ===================> "C%3A%2FUwAmp%2Fwww%2Fwordpress"
+	SEARCH  7:"//compteflorian.alwaysdata.net" ==================> "//localhost/wordpress"
+	SEARCH  8:"\/\/compteflorian.alwaysdata.net" ================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Fcompteflorian.alwaysdata.net" ==============> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/compteflorian/www/" ========================> "C:/UwAmp/www/wordpress/"
+	SEARCH  2:"\/home\/compteflorian\/www\/" ====================> "C:\/UwAmp\/www\/wordpress\/"
+	SEARCH  3:"%2Fhome%2Fcompteflorian%2Fwww%2F" ================> "C%3A%2FUwAmp%2Fwww%2Fwordpress%2F"
+	SEARCH  4:"\home\compteflorian\www" =========================> "C:/UwAmp/www/wordpress"
+	SEARCH  5:"\\home\\compteflorian\\www" ======================> "C:\/UwAmp\/www\/wordpress"
+	SEARCH  6:"%5Chome%5Ccompteflorian%5Cwww" ===================> "C%3A%2FUwAmp%2Fwww%2Fwordpress"
+	SEARCH  7:"//compteflorian.alwaysdata.net" ==================> "//localhost/wordpress"
+	SEARCH  8:"\/\/compteflorian.alwaysdata.net" ================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Fcompteflorian.alwaysdata.net" ==============> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:736 	|	 Cells:4609 
+UPDATED:	Tables:4 	|	 Rows:91 	|	 Cells:95 
+ERRORS:		0 
+RUNTIME:	11.372300 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""compteflorian_uniscocium""
+	UPDATE DB_USER ""195343_admin""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""mysql-compteflorian.alwaysdata.net""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:45:15 - RUNTIME: 12.3687 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

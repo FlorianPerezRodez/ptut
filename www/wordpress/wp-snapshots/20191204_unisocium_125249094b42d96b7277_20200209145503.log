@@ -1,0 +1,84 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 9 February 2020 14 h 55 min
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.24
+WORDPRESS:	5.2.5
+PHP INFO:	7.3.9 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+MEMORY STACK: 2MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20191204_unisocium_125249094b42d96b7277_20200209145503_database.sql
+SQL FILE SIZE: 595.95KB (610249)
+SQL FILE TIME: 2020-02-09 14:55:06
+SQL RUNTIME: 0.10 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/compteflorian/www
+ARCHIVE FILE: 20191204_unisocium_125249094b42d96b7277_20200209145503_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	0B
+STATS:	Dirs 0 | Files 0
+SQL ADDED: 20191204_unisocium_125249094b42d96b7277_20200209145503_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1
+    [filename] => /home/compteflorian/www/wp-snapshots/tmp/20191204_unisocium_125249094b42d96b7277_20200209145503_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 0
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 104.44KB
+ARCHIVE RUNTIME: 0.03 sec.
+MEMORY STACK: 4MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /home/compteflorian/www/wp-snapshots/tmp/20191204_unisocium_125249094b42d96b7277_20200209145503_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 595.95KB
+INSTALLER FILE: 60.53KB
+ARCHIVE FILE: 1.4MB 
+COMPTE ATTENDU DE FICHIERS/RÉPERTOIRES : 0
+COMPTE ACTUEL DE FICHIERS/RÉPERTOIRES : 0
+TEST DE COHÉRENCE D’ARCHIVE : Bon
+
+********************************************************************************
+RECORD ID:[15]
+TOTAL PROCESS RUNTIME: 0.29 sec.
+PEAK PHP MEMORY USED: 4MB
+DONE PROCESSING => 20191204_unisocium 9 February 2020 14 h 55 min
+

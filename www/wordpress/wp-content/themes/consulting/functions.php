@@ -5,6 +5,12 @@
  * @package ThinkUpThemes
  */
 
+//rajout
+$theme = wp_get_theme();
+$ver = $theme->get( 'Version' );
+$themecsspath = get_stylesheet_directory() . '/style.css';
+$style_ver = filemtime( $themecsspath );
+
 // Declare latest theme version
 $GLOBALS['consulting_thinkup_theme_version'] = '1.2.11';
 

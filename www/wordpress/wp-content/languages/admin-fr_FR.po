@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.2.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-10-20 17:54:04+0000\n"
+"PO-Revision-Date: 2019-11-13 10:59:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6943,7 +6943,7 @@ msgstr "[%1$s] URGENT : suite à une mise à jour échouée, votre site est peu
 #. WordPress version number.
 #: wp-admin/includes/class-wp-automatic-updater.php:658
 msgid "[%1$s] WordPress %2$s is available. Please update!"
-msgstr "[%1$s] WordPress %2$s est disponible. Veuillez faire la mise à jour !"
+msgstr "[%1$s] WordPress %2$s est disponible. Veuillez mettre à jour !"
 
 #. translators: Site updated notification email subject. 1: Site title, 2:
 #. WordPress version number.
@@ -11110,7 +11110,7 @@ msgstr "Veuillez mettre WordPress à jour maintenant"
 #. URL to network admin, 4: accessibility text
 #: wp-admin/includes/update.php:274
 msgid "<a href=\"%1$s\">WordPress %2$s</a> is available! <a href=\"%3$s\" aria-label=\"%4$s\">Please update now</a>."
-msgstr "<a href=\"%1$s\">WordPress %2$s</a> est disponible ! <a href=\"%3$s\" aria-label=\"%4$s\">Veuillez faire la mise à jour maintenant</a>."
+msgstr "<a href=\"%1$s\">WordPress %2$s</a> est disponible ! <a href=\"%3$s\" aria-label=\"%4$s\">Veuillez mettre à jour maintenant</a>."
 
 #. translators: %s: WordPress version
 #: wp-admin/includes/update.php:267 wp-admin/install.php:239

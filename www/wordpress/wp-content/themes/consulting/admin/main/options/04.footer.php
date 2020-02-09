@@ -221,7 +221,7 @@ $thinkup_footer_widgetswitch = consulting_thinkup_var ( 'thinkup_footer_widgetsw
 
 function consulting_thinkup_input_copyright() {
 
-	printf( __( 'Developed by %1$s. Powered by %2$s.', 'consulting' ) , '<a href="//www.thinkupthemes.com/" target="_blank">Think Up Themes Ltd</a>', '<a href="' . __( '//www.wordpress.org/', 'consulting' ) . '" target="_blank">WordPress</a>'); 
+	printf( 'Powered by WordPress'); 
 }
 
 

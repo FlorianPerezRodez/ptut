@@ -6,3 +6,11 @@ Author URI: https://wpmarmite.com
 Template: consulting
 Version: 1.0
 */
+
+textarea {
+	color: #000000;	
+	font-family: Open Sans, Helvetica, Arial;
+	font-size: 13px;
+	line-height: 1.8;
+	word-wrap: break-word;
+}
